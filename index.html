@@ -7,6 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
     <title>CV BUZZ LIGHTYEAR</title>
+    <style>
+        .btn-asistente {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            background: #025294;
+            color: #fff;
+            padding: 12px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: .875rem;
+            box-shadow: 0 4px 15px rgba(0,0,0,.3);
+            z-index: 999;
+            transition: background .2s, box-shadow .2s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .btn-asistente:hover { background: #013a6e; box-shadow: 0 6px 20px rgba(0,0,0,.4); }
+    </style>
 </head>
 <body>
     <!-- SECCION INICIO -->
@@ -183,6 +204,9 @@
         </div>
     </section>
 
+    <a class="btn-asistente" href="asistente.html">
+        <i class="fa-solid fa-folder-open"></i> Mis Documentos
+    </a>
     <script src="app.js"></script>
 </body>
 </html>
